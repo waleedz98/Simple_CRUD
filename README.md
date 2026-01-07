@@ -1,4 +1,4 @@
-# Simple CRUD - Laravel
+ Simple CRUD - Laravel
 
 🚧 **Work in Progress / Under Development**
 
@@ -41,3 +41,52 @@ Clone the repository:
 ```bash
 git clone https://github.com/waleedz98/Simple_CRUD.git
 cd Simple_CRUD
+````
+
+Install dependencies:
+
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+```
+
+Configure your database in `.env`, then migrate:
+
+```bash
+php artisan migrate
+```
+
+Start the server:
+
+```bash
+php artisan serve
+```
+
+---
+
+## 🧠 Future Improvements
+
+* Add authentication & authorization
+* Admin dashboard
+* API endpoints
+* Validation and error handling
+* Better UI design
+
+---
+
+## 📌 Notes
+
+This repository is shared to showcase the project implementation and my workflow with Laravel.
+The project will be maintained and improved over time.
+
+---
+
+## 📍 Author
+
+**Waleed Ahmed**
+Backend Developer — PHP & Laravel
+
+🔗 [https://github.com/waleedz98](https://github.com/waleedz98)
+🔗 [https://www.linkedin.com/in/waleed-noureddin](https://www.linkedin.com/in/waleed-noureddin)
+
